@@ -1,40 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
-         <ul class="sidebar">
-            <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <ul class="sidebar">
+            <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                        viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Forum</a></li>
-            <li><a href="#">Login</a></li>    
+            <li><a href="#">Login</a></li>
         </ul>
         <ul class="bar">
-           <li><a href="#">LENA'S GADGETS</a></li>
+            <li><a href="#">LENA'S GADGETS</a></li>
             <li class="hide0nMobile"><a href="#">Blog</a></li>
             <li class="hide0nMobile"><a href="#">Product</a></li>
             <li class="hide0nMobile"><a href="#">About</a></li>
             <li class="hide0nMobile"><a href="#">Forum</a></li>
             <li class="hide0nMobile"><a href="#">Login</a></li>
-            <li onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            <li onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                        viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
         </ul>
     </nav>
     <script>
-        function showsidebar(){
+        function showsidebar() {
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'flex'
         }
-        function hidesidebar(){
+        function hidesidebar() {
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
         }
     </script>
+    <img src="/electronic.webp" alt="image" class="img">
+    <div class="menu">
+        <h1 class="heading">We're dealers in the following;</h1>
+        <ul class="list">
+            <li>Phones</li>
+            <li>Chargers</li>
+            <li>Accessories</li>
+            <li>Tvs</li>
+            <li>Water heaters</li>
+            <li>Watches</li>
+        </ul>
+    </div>
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <ol class="numbers">
+            <li>0780764218</li>
+            <li>072412367</li>
+            <li>0786803637</li>
+        </ol>
+    </div>
 </body>
+
 </html>

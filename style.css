@@ -4,7 +4,7 @@
 }
 body{
     min-height: 100vh;
-    background-image: url(bing1.jpg);
+    background-image: url(ocean.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,4 +65,55 @@ nav li:first-child{
 }
 @media(max-with: 400px){
     width: 100%;
+}
+.menu{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+.list{
+    list-style-type: square;
+    font-size: 25px;
+    color: orangered;
+    font-style: normal;
+    margin-left: 60px;
+    padding-top: 30px;
+    font-family: 'Times New Roman';
+    width: 100px;
+    height: 50px;
+}
+.list :hover{
+    color: white;
+}
+.menu :hover{
+    color: orangered;
+}
+.contact{
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.numbers{
+    color: orangered;
+    margin-left: 50px;
+    padding-top: 20px;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 700;
+}
+.numbers :hover{
+    color: orangered;
+}
+.img{
+    float: right;
+    margin-right: 300px;
+    margin-top: 200px;
+    width: 500px;
+    height: 300px;
 }
